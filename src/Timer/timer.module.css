@@ -8,19 +8,21 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #E5B7FF;
+    background-image: url('https://png.pngtree.com/background/20240112/original/pngtree-exploring-a-vibrant-purple-workspace-innovative-toy-inspired-study-and-business-picture-image_7227068.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
 .timer-container{
-    width: 300px;
+    width: 320px;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1E213F;
-    border-radius: 40px;
+    border-radius: 30px;
     color: #D7E0FF;
     
 }
@@ -39,7 +41,7 @@ h2{
   margin: 10px;
 }
 .quote {
-    margin-top: 10px;
+    
     font-size: 1.2rem;
     font-style: italic;
     color: plum
@@ -56,5 +58,5 @@ button{
 }
 .logo{
      border-radius: 50px;
-     margin:0;
+     
 }

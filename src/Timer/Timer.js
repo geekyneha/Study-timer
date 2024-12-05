@@ -59,11 +59,13 @@ const Timer = () => {
   return (
     
     <div className={style['container']} >
+        
       <div className={style['timer-container']}>
         <div>
            
         <img className={style['logo']} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7UZVoDSOMiX7-05yuqPW1dxu6apRCraLnBYjOZfzi_sM7G6r1d_G5BwL6xwCJe57E-fg&usqp=CAU" alt="Study Timer"  width={40} height={40}/>
         </div>
+        
       <h2>{formatTime(timeLeft)}</h2>
       <div className={style['control-buttons']}>
       <button onClick={handleStart}><FaPlay /></button>
